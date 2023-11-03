@@ -1,6 +1,6 @@
 # LoungeRankJudgeAPI
 
-Powerd by Next.js : [https://nextjs.org/](https://nextjs.org/)
+Powered by Next.js : [https://nextjs.org/](https://nextjs.org/)
 
 ## 概要 / Expanation
 * このプログラムはMK8DX 150ccラウンジ、200ccラウンジにおけるランクの判定をmmrをもとに出すweb apiです。
