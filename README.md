@@ -6,6 +6,42 @@ Powered by Next.js : [https://nextjs.org/](https://nextjs.org/)
 * このプログラムはMK8DX 150ccラウンジ、200ccラウンジにおけるランクの判定をmmrをもとに出すweb apiです。
 * This program is a web api that determines rank in the MK8DX 150cc and 200cc lounges based on mmr.
 
+## セットアップ / Setup
+
+**Japanese**
+
+1. リポジトリをクローンします。
+   ```bash
+   git clone https://github.com/Ay2416/LoungeRankJudgeAPI.git
+   cd LoungeRankJudgeAPI
+   ```
+2. 依存関係をインストールします。
+   ```bash
+   npm install
+   ```
+3. 開発サーバーを起動します。
+   ```bash
+   npm run dev
+   ```
+4. ブラウザで [http://localhost:3000](http://localhost:3000) にアクセスして確認します。
+
+**English**
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/Ay2416/LoungeRankJudgeAPI.git
+   cd LoungeRankJudgeAPI
+   ```
+2. Install the dependencies.
+   ```bash
+   npm install
+   ```
+3. Start the development server.
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 ## 使い方 / How to use?
 
 **Japanese**
@@ -15,9 +51,11 @@ URLに以下の感じでアクセスすると使用することができます�
 ※ただし情報把握をできなかった都合上、150ccはシーズン9以降、200ccはシーズン6以降のみしか数を出せません。申し訳ありません。
 
 例：[https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000](https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000)
+ローカル環境での例：[http://localhost:3000/api/s10/150ccRankJudge?mmr=15000](http://localhost:3000/api/s10/150ccRankJudge?mmr=15000)
 
 ```
 https://lounge-rank-judge-api.vercel.app/api/s[シーズン数]/[150か200か]ccRankJudge?mmr=[mmr数]
+(ローカル環境の場合: http://localhost:3000/api/s[シーズン数]/[150か200か]ccRankJudge?mmr=[mmr数])
 ```
 
 **English**
@@ -27,9 +65,11 @@ You can use it by accessing the URL with the following feeling.
 *However, due to circumstances that prevented us from ascertaining the information, we can only provide information for 150cc after Season 9 and 200cc after Season 6. Our apologies.
 
 Example : [https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000](https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000)
+Local example : [http://localhost:3000/api/s10/150ccRankJudge?mmr=15000](http://localhost:3000/api/s10/150ccRankJudge?mmr=15000)
 
 ```
 https://lounge-rank-judge-api.vercel.app/api/s[number of seasons]/[150 or 200]ccRankJudge?mmr=[number of mmr]
+(For local environment: http://localhost:3000/api/s[number of seasons]/[150 or 200]ccRankJudge?mmr=[number of mmr])
 ```
 
 ## 参考にしたサイト / Refer sites
