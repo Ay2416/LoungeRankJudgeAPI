@@ -50,8 +50,12 @@ URLに以下の感じでアクセスすると使用することができます�
 
 ※ただし情報把握をできなかった都合上、150ccはシーズン9以降、200ccはシーズン6以降のみしか数を出せません。申し訳ありません。
 
-例：[https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000](https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000)
+例：
+
+```
+[https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000](https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000)
 ローカル環境での例：[http://localhost:3000/api/s10/150ccRankJudge?mmr=15000](http://localhost:3000/api/s10/150ccRankJudge?mmr=15000)
+```
 
 ```
 https://lounge-rank-judge-api.vercel.app/api/s[シーズン数]/[150か200か]ccRankJudge?mmr=[mmr数]
@@ -64,8 +68,12 @@ You can use it by accessing the URL with the following feeling.
 
 *However, due to circumstances that prevented us from ascertaining the information, we can only provide information for 150cc after Season 9 and 200cc after Season 6. Our apologies.
 
-Example : [https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000](https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000)
+Example : 
+
+```
+[https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000](https://lounge-rank-judge-api.vercel.app/api/s10/150ccRankJudge?mmr=15000)
 Local example : [http://localhost:3000/api/s10/150ccRankJudge?mmr=15000](http://localhost:3000/api/s10/150ccRankJudge?mmr=15000)
+```
 
 ```
 https://lounge-rank-judge-api.vercel.app/api/s[number of seasons]/[150 or 200]ccRankJudge?mmr=[number of mmr]
